@@ -13,7 +13,7 @@ export function interactionMom(damaris, mamaD) {
      
     this.bubble = this.add.graphics();
     this.bubble.fillStyle(0xffffff, 1); // color blanco con opacidad 1
-    this.bubble.fillRoundedRect(mamaD.x , mamaD.y - 80, 170, 80, 10); // ajustar posición y tamaño
+    this.bubble.fillRoundedRect(mamaD.x , mamaD.y - 80, 200, 80, 10); // ajustar posición y tamaño
 
     // Añadir el texto dentro de la burbuja
     this.message = this.add.text(mamaD.x , mamaD.y - 80, `¡Claro \n pero te compré \n unos regalos \n y no los encuentro \n  date buscando`, {
@@ -68,7 +68,7 @@ export function interactionMom(damaris, mamaD) {
                 this.bubble.fillRoundedRect(damaris.x , damaris.y - 70, 170, 70, 10); // ajustar posición y tamaño
 
                 // Añadir el texto dentro de la burbuja
-                this.message = this.add.text(damaris.x , damaris.y - 70, `Mamá: Listo,\npero anda \ndonde tu ñaña \nque te buscaba`, {
+                this.message = this.add.text(damaris.x , damaris.y - 70, ` Mamá: Listo,\n pero anda \n donde tu ñaña \n que te buscaba`, {
                 fontSize: '16px',
                 fill: '#000'
                 });

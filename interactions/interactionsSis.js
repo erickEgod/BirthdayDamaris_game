@@ -40,7 +40,7 @@ export function interactionSis(damaris, sisD) {
         this.bubble = this.add.graphics();
         this.bubble.fillStyle(0xffffff, 1); // Color blanco con opacidad 1
         this.bubble.fillRoundedRect(sisD.x -30, sisD.y - 50, 200, 50, 10); // Ajustar posición y tamaño
-         this.message = this.add.text(sisD.x -30, sisD.y - 50, ` Cierto, gracias \n ñaña en el baño \n te dejé un regalo`, {
+         this.message = this.add.text(sisD.x -30, sisD.y - 50, ` Gracias ñaña, \n en el baño \n te dejé un regalo`, {
         fontSize: '16px',
         fill: '#000'
         
